@@ -4,6 +4,6 @@
         <h3>Projects Abound Below</h3>
         <h5>Old Projects</h5>
         
-        <h5>New/In Progress Projects</h5>
+        <h5>New & In Progress Projects</h5>
     </body>
 </html>
