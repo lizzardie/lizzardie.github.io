@@ -10,7 +10,10 @@
             "img": "httyd on phone, the swell of test drive"
         },
         "ur a ur & a we & an us", {
-            "img": "wide shot, the arguing, the forgetting"
+            "img": "wide shot, the arguing, the forgetting", 
+            "noise": [
+                "like static, like an inhale"
+            ]
         }
     ],
     "PAGE 2": [
@@ -23,14 +26,14 @@
         "ur an exit & a similie", {
             "img": "palms pressed into eye sockets, furrowed brow, sparklers of pain in every joint"
         }
-
     ],
     "PAGE 3": [
         "ur not a poem", {
-            "img": "margins: the work is lateral, incidentally poetic", "whitespace": [
+            "img": "margins: the work is lateral, incidentally poetic", 
+            "whitespace": [
                 "here", [
                     "here", [
-                        "& here"
+                        "& here, collapsed"
                     ]
                 ]
             ]
