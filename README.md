@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<stlye>
+		<style>
 		</style>
 	</head>
 	<body>
@@ -8,6 +8,8 @@
     	<h3>Projects Abound Below</h3>
     	<h5>Old Projects</h5>
 		<p>CT-20 Project 2: <a href="https://lizzardie.github.io/DUMBboard/index.html">DUMBboard</a></p>
+		<h5>New Projects</h5>
+		<p>CT-120 Project 1: <a href=".../JSON data poem.json">ur an exit & a simile</a></p>
 	</body>
 </html>
 
