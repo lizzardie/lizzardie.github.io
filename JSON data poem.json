@@ -4,15 +4,19 @@
             "img": "ur sitting here, wicker chair, smoke curling, legs scrunched up into ur stomach"
         },
         "ur back hurts", {
-            "img": "closer, it's cold out, but this jacket is big & the weed is a balm"
+            "img, closeup": "it's cold out, the jacket is big, & the weed is a balm",
+            "o the small mercies": "yarn shaped to love u, warmth in the cold dark"
         },
         "httyd always makes us cry", {
-            "img": "httyd on phone, the swell of test drive"
+            "img": "httyd on phone, the swell of test drive, & the nearness of it"
         },
         "ur a ur & a we & an us", {
-            "img": "wide shot, the arguing, the forgetting", 
+            "img, wide shot": "the arguing, the forgetting", 
             "noise": [
-                "like static, like an inhale"
+                "like static, like an inhale",
+                "the rasp of a thousand thousand bodies",
+                "pressed into our ears",
+                "bold & hypnotic"
             ]
         }
     ],
@@ -21,7 +25,8 @@
             "img": "eye barely open, sluggish hand, & the hecklers are awake"
         },
         "the dogs are restless through two doors", {
-            "img": "the computer light blinks, the rustle of bodies"
+            "img": "the computer light blinks, the rustle of furred bodies",
+            "realization": "it comes quick and leaves quicker"
         },
         "ur an exit & a similie", {
             "img": "palms pressed into eye sockets, furrowed brow, sparklers of pain in every joint"
@@ -34,14 +39,29 @@
                 "here", [
                     "here", [
                         "& here, collapsed"
-                    ]
-                ]
+                    ],
+                    "u still hear it though"
+                ],
+                "it still eats at u, the thing that rattles"
             ]
         },
         "ur a ghost in a machine", {
-            "img": ""
-        }
-
+            "img": "a bug, a killable thing, a vulnerable thing", 
+            "redux": [
+                "timely action", 
+                "we & us", 
+                "the power of the present", 
+                "ur memory"
+            ]     
+        },
+        "here's to next", {
+            "img": "ur head rested in a lap, food under the moon, a million small aches and a million more",
+            "a million small aches": [
+                "each stinging",
+                "each furious",
+                "each loved"
+            ]
+        }   
     ]
-    }
+}
 }
