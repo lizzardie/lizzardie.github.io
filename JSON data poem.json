@@ -30,6 +30,22 @@
         },
         "ur an exit & a similie", {
             "img": "palms pressed into eye sockets, furrowed brow, sparklers of pain in every joint"
+        },
+        "an intermission", {
+            "on pain": [
+                "as symptom",
+                "as evidence",
+                "as preparation", 
+                "the purpose of a system is what it does", [
+                    "what of pain",
+                    "what of invisibility",
+                    "what of grief"
+                ], [
+                    "u think it's a sign",
+                    "for better or for worse",
+                    "nothing leaves u"
+                ]
+            ]  
         }
     ],
     "PAGE 3": [
@@ -42,11 +58,12 @@
                     ],
                     "u still hear it though"
                 ],
-                "it still eats at u, the thing that rattles"
+                "it still eats at u", 
+                "the thing that rattles"
             ]
         },
         "ur a ghost in a machine", {
-            "img": "a bug, a killable thing, a vulnerable thing", 
+            "img": "a bug, a killable, vulnerable thing", 
             "redux": [
                 "timely action", 
                 "we & us", 
@@ -59,7 +76,7 @@
             "a million small aches": [
                 "each stinging",
                 "each furious",
-                "each loved"
+                "each earned"
             ]
         }   
     ]
