@@ -1,7 +1,6 @@
 <html>
 	<head>
-		<style>
-		</style>
+		<link rel="stylesheet"  href="github site style.css">
 	</head>
 	<body>
     	<h1>Lizzardie's Homepage</h1>
