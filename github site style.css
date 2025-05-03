@@ -1,5 +1,5 @@
 body{
-    background-color: #232222;
+    background-color: #2e2e2e;
 }
 h1{
     color: whitesmoke;
@@ -14,6 +14,6 @@ p{
     color: whitesmoke;
 }
 video{
-    display: none;
+    display: block;
     width: 80vw;
 }
