@@ -12,10 +12,16 @@
     <script>
         let video = document.querySelector("video");
 
-        // this Might need to be a function?? or this might just be a bigger block of if statements? independently?
-        if(video.currentTime = 10){
-            video.currentTime = 20;
-        } // the # is counting Seconds i think, need to figure out what timestamps, and when to jump
+        video.addEventListener("timeupdate", function(){
+            if (this.currentTime = 10){
+                this.currentTime = 20;
+            }
+            if(this.currentTime = 30){
+                this.currentTime = 1000;
+            }
+        })
+            // the # is counting Seconds i think, need to figure out what timestamps, and when to jump
+        
     </script>
     
 </body>
