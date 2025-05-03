@@ -13,6 +13,12 @@ h5{
 p{
     color: whitesmoke;
 }
+a:link{
+    color: whitesmoke;
+}
+a:visited{
+    color: whitesmoke;
+}
 video{
     display: block;
     width: 80vw;
