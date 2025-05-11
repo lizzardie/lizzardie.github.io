@@ -27,3 +27,9 @@ audio{
     display: block;
     width: 80vw;
 }
+.script-box{
+    height: 160px;
+    width: 80px;
+    overflow-y: auto;
+
+}
