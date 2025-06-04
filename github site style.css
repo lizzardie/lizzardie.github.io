@@ -33,3 +33,14 @@ audio{
     overflow-y: auto;
 
 }
+
+body #celltower{
+    background-color: #14241c;
+    /* 
+    #D2691E <-- an orange that i like, but the below link has a good orange and blue palette
+    https://www.w3schools.com/w3css/w3css_color_schemes.asp 
+    */
+}
+.header{
+    background-color: #D2691E;
+}
