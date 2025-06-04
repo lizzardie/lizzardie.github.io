@@ -31,16 +31,24 @@ audio{
     height: 200px;
     width: 400px;
     overflow-y: auto;
-
 }
-
-body #celltower{
-    background-color: #14241c;
-    /* 
+#celltowerBody{
+    background-color: #874000;
+}
+#celltowerBody p{
+    color: white;
+    font-family:sans-serif;
+    font-size:large;
+    font-weight: bold;
+    padding: 1em;
+}
+header{
+    background-color: #031927;
+    float: top;
+    width: 100% vw;
+    height: 300px;
+}
+/* 
     #D2691E <-- an orange that i like, but the below link has a good orange and blue palette
     https://www.w3schools.com/w3css/w3css_color_schemes.asp 
     */
-}
-.header{
-    background-color: #D2691E;
-}
