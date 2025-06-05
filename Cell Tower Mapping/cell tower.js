@@ -1,3 +1,9 @@
+
+/* 
+this code works to keep the sidebar text sticky but it doesn't account for the fact that the sidebar info is taller than
+what is on screen initially,,,,
+*/
+
 var top = $("fixed-scroll").offset().top;
 var height = $("fixedscroll").height();
 var winHeight = $(window).height();

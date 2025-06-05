@@ -65,9 +65,15 @@ aside{
     border-color: #874000;
     line-height: 2;
 }
+.keep-box-size p{
+    color: transparent;
+    
+}
 #fixedscroll{
     position: fixed;
-    left: 0;
+    left: 20px;
+    width: 160px;
+    line-height: 2;
 }
 main{
     grid-area: main;
