@@ -1,4 +1,4 @@
-src="sticky-sidebar.min.js";
+src="sticky-sidebar.js";
 
 var sidebar = new StickySidebar("#fixedscroll", {
         containerSelector: "#stickycontainer",
