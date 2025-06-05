@@ -10,7 +10,7 @@
     // to the top of the vh, like it always tending towards being in that perfect state of being dead center
     // and moving only within the bounds of the <aside>
 
-
+/* 
 var stickyGuy = getElementById("#fixed scroll");
 console.log(stickyGuy);
 
@@ -21,7 +21,7 @@ if (topStick >= 100){
     stickyGuy.addClass("fixed").css;
 
 }
-
+*/
 
 /* 
 this code works to keep the sidebar text sticky but it doesn't account for the fact that the sidebar info is taller than
