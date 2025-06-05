@@ -1,14 +1,26 @@
-src="sticky-sidebar.js";
+// for if i need to go back to reg javascript:
+// make a "sticky" element/variable out of the div with the id #fixedscroll
+// create an event listener for if that div is approaching the top edge of the screen
+    // if the div reaches a certain threshold, at That point, apply a sticky condition
+// another event listener for if the bottom of the div hits the edge of #stickycontainer 
+    // that removes sticky condition
 
-var sidebar = new StickySidebar("#fixedscroll", {
-        containerSelector: "#stickycontainer",
-        innerWrapperSelector: ".sidebar-inner",
-        topSpacing: 20,
-        bottomSpacing: 20
-    });
+// another event listener for if the bottom of the div hits the bottom of the viewport height(vh)?
+    // that would make it scroll up, might need one instead for the relation of the top of the div
+    // to the top of the vh, like it always tending towards being in that perfect state of being dead center
+    // and moving only within the bounds of the <aside>
 
 
+var stickyGuy = getElementById("#fixed scroll");
+console.log(stickyGuy);
 
+var topStick = stickyGuy.offsetTop;
+console.log(topStick);
+
+if (topStick >= 100){
+    stickyGuy.addClass("fixed").css;
+
+}
 
 
 /* 
