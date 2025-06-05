@@ -65,14 +65,13 @@ aside{
     border-color: #874000;
     line-height: 2;
 }
-.keep-box-size p{
-    color: transparent;
-    
+.keep-box-size{
+    visibility: hidden;
 }
 #fixedscroll{
     position: fixed;
     left: 20px;
-    width: 160px;
+    width: 165px;
     line-height: 2;
 }
 main{

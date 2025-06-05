@@ -1,8 +1,19 @@
+src="sticky-sidebar.min.js";
+
+var sidebar = new StickySidebar("#fixedscroll", {
+        containerSelector: "#stickycontainer",
+        innerWrapperSelector: ".sidebar-inner",
+        topSpacing: 20,
+        bottomSpacing: 20
+    });
+
+
+
+
 
 /* 
 this code works to keep the sidebar text sticky but it doesn't account for the fact that the sidebar info is taller than
 what is on screen initially,,,,
-*/
 
 var top = $("fixed-scroll").offset().top;
 var height = $("fixedscroll").height();
@@ -21,3 +32,4 @@ $(window).scroll(function(event) {
         $("#fixedscroll").removeClass("fixed").css("top", "0px");
     }
 });
+*/
