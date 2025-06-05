@@ -63,11 +63,16 @@ aside{
     border-style: solid;
     border-left: none;
     border-color: #874000;
-    
+    line-height: 2;
+}
+#fixedscroll{
+    position: fixed;
+    left: 0;
 }
 main{
     grid-area: main;
     padding: 1em;
+    line-height: 1.5;
 }
 footer{
     grid-area: footer;
