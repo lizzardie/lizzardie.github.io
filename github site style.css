@@ -40,7 +40,7 @@ audio{
     font-family: sans-serif;
 }
 #celltowerBody{
-    background: linear-gradient(#9dd1f1, #d5700a 20%, #874000 80%);
+    background: linear-gradient(#9dd1f1, #d5700a 10%, #874000 80%);
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
