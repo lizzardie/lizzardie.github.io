@@ -67,11 +67,10 @@ aside{
 }
 .keep-box-size{
     line-height: 2;
-   /* visibility: hidden; */
+    visibility: hidden;
 }
 #fixedscroll{
-    visibility: hidden;
-    position: fixed;
+    /* visibility: hidden; */
     left: 20px;
     width: 165px;
     line-height: 2;

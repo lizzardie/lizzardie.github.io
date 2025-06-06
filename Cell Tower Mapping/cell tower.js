@@ -1,3 +1,94 @@
+
+
+$(document).ready(function () {
+    var length = $("#stickycontainer").height() - $("#fixedscroll").height();
+
+    $(window).scroll(function () {
+        var scroll = $(this).scrollTop();
+        console.log(scroll);
+        var height = $("#fixedscroll").height() + "px";
+
+        if(scroll <= 0) {
+            $("#fixedscroll").css({
+                "position": "absolute",
+                "top": "146.15px"
+            });
+        } else if(scroll > 20 && scroll < 50){
+            $("#fixedscroll").css({
+                "position": "absolute",
+                "top": "130px",
+                "left": "20px",
+                "width": "165px"
+        });
+        } else if(scroll > 120 && scroll < 220){
+            $("#fixedscroll").css({
+                "position": "absolute",
+                "top": "20px",
+                "left": "20px",
+                "width": "165px"
+        });
+        } else if(scroll >= length + 250) {
+            $("#fixedscroll").css({
+                "position": "absolute",
+                "top": "30px",
+                "bottom": "60px"
+                
+            });
+        
+        } else if(scroll >= length + 300) {
+            $("#fixedscroll").css({
+                "position": "absolute",
+                "bottom": "300px"
+                
+            });
+        } else {
+            $("#fixedscroll").css({
+                "position": "fixed",
+                "height": "centered"
+            });
+        }
+    });
+
+});
+
+
+
+
+/*
+
+
+} else if(scroll >= length + 400) {
+            $("#fixedscroll").css({
+                "position": "absolute",
+                "top": "-20px",
+                "bottom": "200px"
+                
+            });
+
+
+var stickyGuy = "#fixedscroll";
+console.log(stickyGuy);
+
+
+
+
+
+
+function findPos(stickyGuy){
+    var curleft = curtop = 0;
+    if (stickyGuy.offsetParent) {
+        do{
+            curleft += stickyGuy.offsetLeft;
+            curtop += stickyGuy.offsetTop;
+        } while(stickyGuy = stickyGuy.offsetParent);
+        return [curleft, curtop];
+        
+}
+}
+
+*/
+
+
 // for if i need to go back to reg javascript:
 // make a "sticky" element/variable out of the div with the id #fixedscroll
 // create an event listener for if that div is approaching the top edge of the screen
